@@ -12,7 +12,7 @@ public class Main {
         Chopar chopar = new Chopar();
         Shoxclinika shoxclinika = new Shoxclinika();
         TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
-        api.registerBot(shoxclinika);
+        api.registerBot(kia);
         System.out.println("ishlavoti");
     }
 }

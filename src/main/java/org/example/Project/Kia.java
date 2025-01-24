@@ -320,7 +320,6 @@ import java.util.List;
 
                 }
 
-
             } else if (update.hasCallbackQuery()) {
                 String data = update.getCallbackQuery().getData();
                 Long chatId = update.getCallbackQuery().getMessage().getChatId();
